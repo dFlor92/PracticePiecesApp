@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace WoWAPITest
 {
-    public class RootElement
+    public class Character
     {
-        public long lastModified { get; set; }
         public string name { get; set; }
         public string realm { get; set; }
         public string battlegroup { get; set; }
@@ -16,10 +15,7 @@ namespace WoWAPITest
         public int race { get; set; }
         public int gender { get; set; }
         public int level { get; set; }
-        public int achievementPoints { get; set; }
-        public string thumbnail { get; set; }
-        public string calcClass { get; set; }
-        public int faction { get; set; }
-        public int totalHonorableKills { get; set; }
+       public int achievementPoints { get; set; }
+       public string thumbnail { get; set; }
     }
 }
